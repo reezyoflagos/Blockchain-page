@@ -1,0 +1,62 @@
+.head{
+    display: flex;
+    background-color: grey;
+}
+.Log button{
+    margin-right: 40px;
+    margin-top: 30px;
+    margin-left:11.5rem;
+    border-radius: 8px solid rgba(255, 251, 0, 0.509);
+    background-color: skyblue;
+    padding: 5px;
+    
+    
+
+    
+}
+.box{
+     background-color:rgba(133, 133, 143, 0.774) ;
+    text-align: center;
+    margin-top: 300px;
+    margin-left: 250px;
+    margin-right: 250px;
+    padding: 50px;
+    border-radius: 7px solid grey;
+    box-shadow: 2px;
+
+
+    
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+.footer{
+    background-color:grey;
+    padding-bottom:30px;
+    padding-top: 10px;
+    display: flex;
+
+}
+.type1{
+    padding: 8px;
+    width: 200px;
+}
+.span{
+    
+    background-color:rgba(133, 133, 143, 0.774) ;
+    text-align: center;
+    margin-top: 300px;
+    margin-left: 250px;
+    margin-right: 150px;
+    padding: 50px;
+    border-radius: 9px dashed  blue;
+    box-shadow: 2px;
+
+}
+.shadow{
+    
+}
+.space{
+    padding: 80px;
+}
