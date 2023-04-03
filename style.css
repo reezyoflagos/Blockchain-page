@@ -71,15 +71,21 @@
 }
 .footer{
     background-color:grey;
-    padding-bottom:30px;
-    padding-top: 10px;
+   padding:20px;
     display: flex;
     font-size:25px ;
-    position: absolute;
+    position:absolute;
     bottom:0;
     width:100%;
     
 
+}
+@media (max-width:576px){
+   .footer{position:absolute;
+            bottom:0;
+            width:100%;
+            top:576px;
+   }
 }
 .type1{
     padding: 8px;
